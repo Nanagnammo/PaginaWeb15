@@ -9,6 +9,9 @@ let guessNum = parseInt(prompt('Enter your first guess'));
 let attempts = 1;
 
 while (parseInt(guessNum) !== targetNum){
+    
+    console.log(targetNum)
+
     if(guessNum === 'q'){break}
 
     attempts ++ ;
